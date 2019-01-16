@@ -1,0 +1,40 @@
+.hell-parent{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+.photo{
+	float: left;
+}
+.text-parent{
+	float: left;
+	margin-left: 55px;
+	margin-top: 80px;
+
+}
+.undername{
+	font-family: 'Muli', sans-serif;
+	color: #4A4A4A;
+	font-size: 45px;
+}
+.text{
+	color: #5B686F;
+	font-size: 22px;
+	margin-top: 5px;
+	font-family: 'Dosis', sans-serif;
+}
+.hell-bottom{
+	position: relative;
+}
+.txt-on{
+	position: absolute;
+	left: 11.5%;
+	top: 25%;
+	color: #FFFFFF;
+	font-family: 'Black Han Sans', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+	.hell-parent{
+	
+	}
+}

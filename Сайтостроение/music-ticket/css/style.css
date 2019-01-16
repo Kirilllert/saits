@@ -1,0 +1,130 @@
+body{
+	background-color: #4B0082;
+}
+.hell__parent{
+	width: 800px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.photo{
+	float: left;
+	width: 50%;
+}
+.hell__parent__2{
+	width: 676px;
+	height: 451px;
+}
+.hell__parent__3{
+	float: left;
+	width: 50%;
+	background-color: #2B2525;
+	width: 338px;
+	height: 563px;
+	border-radius: 3%;
+}
+.txt__follow{
+	color: white;
+	font-family: 'Source Code Pro', monospace;
+	border: 2px solid #625E5E;
+	border-radius: 10%;
+	display: inline-block;
+	padding: 2px 7px;
+}
+.container__txt__follow{
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 10px;
+}
+.follow{
+	color:#625E5E; 
+	font-family: 'Source Code Pro', monospace;
+	padding-right: 20px;
+	padding-top: 2px;
+
+}
+.undername{
+	font-size: 40px;
+	color: white;
+	padding-top: 50px;
+	font-family: 'Comfortaa', cursive;
+	padding-left: 25px;
+	position: relative;
+}
+.oval{
+	width: 80px;
+	height: auto;
+	display: inline-block;
+	padding-left: 120px;
+}
+.on__oval{
+	position: absolute;
+	top: 35%;
+    right: 9%;
+}
+.start{
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: flex;
+    align-items: center;
+}
+.txt__start{
+	margin-left: 10px;
+	font-family: 'Rajdhani', sans-serif;
+}
+.money{
+	color: white;
+	display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.txt__money{
+	margin-left: 10px;
+	font-family: 'Rajdhani', sans-serif;
+}
+.hell__parent__4{
+	background-color: #000000;
+	height: 193px;
+}
+.time{
+	border:3px solid #625E5E;
+	border-radius: 10%;
+	padding-top: 5px;
+}
+.time1,.time2,.time3{
+	color: white;
+	padding-left: 50px;
+	font-size: 25px;
+	font-family: 'Rajdhani', sans-serif;
+	display: inline-block;
+}
+.time2,.time3{
+	padding-left: 10px;
+}
+.button{
+	background-color: #7E00E8;
+	display: inline-block;
+	margin-top: 50px;
+	padding-top: 15px;
+	padding-right: 94px;
+	padding-bottom: 20px;
+}
+.button__txt{
+	color: white;
+	padding-left: 120px;
+	font-family: 'Rajdhani', sans-serif;
+}
+.agree{
+	color: white
+}
+.txt__agree{
+	font-family: 'Hammersmith One', sans-serif;
+	padding-left: 5px;
+}
+.agree{
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+}

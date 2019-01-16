@@ -1,0 +1,18 @@
+.hell{
+	max-width: 1160px;
+ 	margin: 0 auto;
+}
+.parent{
+	display: inline-flex;
+ 	align-items: center;
+}
+.topnav{
+	display: inline-flex;
+	position: relative;
+	left: 15%;
+	margin-top: 15px;
+}
+.logotipe{
+	display: inline-block;
+	margin-right: 15px;
+}

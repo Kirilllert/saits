@@ -1,0 +1,20 @@
+.hell-parent{
+	width:1400px;
+	height:4028px;
+}
+.logo{
+	margin-left: 250px;
+	margin-top: 45px; 
+	float:left;
+}
+.video{
+	float:right;
+}
+.parent-video{
+	position: relative;
+}
+.play{
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Бехтерев</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="parent">
+		<div id="parent1">
+			<div id="parent2">
+				<div id="parent3">
+					<div id="parent4">
+						<div class="fadeInDown" id="parent5">
+							<div id="parent6">
+								<div id="parent7">
+									<div id="logo" class="scale-in-center">
+											<div id="name" class="name">
+												<br>
+												Национальный медицинский центр<br> 
+												им. В.М. Бехтерева
+											</div>
+										</div>
+											<div class="fadeInDown" id="ans1">
+												<a class="link" href="http://bekhterev.ru/clinika/">
+													Лечение
+												</a>
+											</div>
+										</a>
+										<div class="fadeInDown" id="ans2">
+											<div id="button1">
+												<a class="link" href="http://bekhterev.ru/nauka/">
+													Наука
+												</a>
+											</div>
+										</div>
+										<div id="button2">
+											<a class="link" href="http://bekhterev.ru/obrazovanie1/">
+												Обучение
+											</a>
+										</div>
+										<div id="button3">
+											<a class="link" href="http://bekhterev.ru/ob_institute/">
+												О центре
+											</a>
+										</div>
+										<div id="button4">
+											<a class="link" href="http://bekhterev.ru/contacts/index.php">
+												Контакты
+											</a>
+										</div>
+										<div id="button5">
+											<a class="link" href="http://bekhterev.ru/onlinezapis.php">
+												Запись на прием
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">
+		let ans2 = document.getElementById('ans2');
+		let ans1 = document.getElementById('ans1');
+		let parent= document.getElementById('parent');
+		let parent1= document.getElementById('parent1')
+		let button1= document.getElementById('button1')
+		let button2= document.getElementById('button2')
+		let button3= document.getElementById('button3')
+		let button4= document.getElementById('button4')
+		let button5= document.getElementById('button5')
+		let name=document.getElementById('name')
+		parent.onclick= function() {
+			ans1.classList.toggle('active');
+		}
+		parent2.onclick= function() {
+			button1.classList.toggle('active1');
+		}
+		parent3.onclick= function() {
+			button2.classList.toggle('active2');
+		}
+		parent4.onclick= function() {
+			button3.classList.toggle('active3');
+		}
+		parent5.onclick= function() {
+			button4.classList.toggle('active4');
+		}
+		parent1.onclick= function() {
+			button5.classList.toggle('active5');
+		}
+		parent6.onclick= function(){
+			name.classList.toggle('active_name')
+		}
+		
+		
+</script>
+</body>
+</html>

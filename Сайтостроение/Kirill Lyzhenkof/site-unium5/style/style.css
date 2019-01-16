@@ -1,0 +1,79 @@
+body{
+	margin: 0;
+}
+.left-side{
+	background-color: #252E3E;
+	float: left;
+	width: 750px;
+	height: 950px;
+	margin-right: 0 auto ;
+}
+.logo{
+	margin-top: 15px;
+	margin-left: 250px;
+	display: inline-block;
+}
+.languch{
+	font-size: 15px;
+	font-family: 'Oxygen', sans-serif;
+	display: inline-flex;
+	margin-left: 275px;
+	margin-top: 13px;
+	font-family: 'Libre Franklin', sans-serif;
+	justify-content: flex-end;
+
+}
+.languch2{
+	font-size: 15px;
+	color: #6D6161;
+	font-family: 'Oxygen', sans-serif;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.languch1{
+	font-size: 15px;
+	color: white;
+	font-family: 'Libre Franklin', sans-serif;
+}
+.shoes{
+	margin-left: 250px;
+    margin-top: 150px;
+}
+.left-sk{
+	position: relative;
+}
+.image{
+	position: absolute;
+	margin-left: 175px;
+}
+.social{
+	margin-top: 150px;
+    margin-left: 75px;
+}
+.menu{
+	float: right;
+	width: 35%;
+	margin-top: 25px;
+	position: relative;
+}
+input[type="text"]{
+	background: #ECEFF2 !important;
+	border-radius: 20px;
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    outline: none;
+    display: inline-block;
+}
+.cart{
+	margin-left: 220px;
+	top: 15%;
+	position: absolute;
+
+}
+.hum{
+	position: absolute;
+	margin-left: 330px;
+	top: 20%;
+}

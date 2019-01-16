@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+    var field_values = {
+            //id        :  value
+            'username'  : 'Логин',
+            'password'  : 'Пароль',
+            'cpassword' : 'Пароль',
+            'firstname'  : 'Имя',
+            'lastname'  : 'Фамилия',
+            'email'  : 'email'
+    }
+
+    </script>
+    <style type="text/css">
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+@font-face {
+   font-family: 'Cantarell';
+   src: url(../fonts/Cantarell-Regular.eot);
+   src: local('Cantarell'), url('../fonts/Cantarell-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #222;
+    font-family: Cantarell, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner { border : none; }
+input[type="submit"]:focus, input[type="button"]:focus { outline : none; }
+
+.clear { clear: both; }
+
+#container {
+    background: url('../images/container.png') no-repeat;
+    width: 754px;
+    height: 370px;
+    margin: 20px auto;
+    padding: 50px 0;
+    overflow: hidden;
+    position: relative;
+}
+    #container #first_step, #second_step, #third_step, #fourth_step { display: none; }
+    #container #first_step { display: block; }
+
+    #container .form { margin: 66px 72px 0 72px; }
+
+    #container h1, #container h2 {
+        font-size: Cantarell, Verdana, sans-serif;
+        text-align: center;
+        font-size: 24px;
+        text-shadow: 1px 1px 2px #222;
+    }
+        #container h1 span { color: #a90329; }
+
+    #container h2 {
+        color: #888;
+        font-size: 20px;
+        text-align: left;
+        text-shadow: none;
+    }
+
+    #container table {
+        margin: 20px 40px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+        #container table td {
+            padding: 5px 10px;
+        }
+            #container table td:nth-child(2) {
+                color: #a90329;
+            }
+
+    #container input, #container select {
+        background: url('../images/input.png') no-repeat;
+        color: #888;
+        border: 1px solid #ccc;
+        font-family: Cantarell, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        width: 300px;
+        height: 35px;
+        padding: 0 25px;
+        margin: 20px 0;
+        float: left;
+
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+    }
+        #container input.submit {
+            background: url('../images/button.png') no-repeat;
+            border: none;
+            cursor: pointer;
+            width: 85px;
+            height: 38px;
+            position: relative;
+            bottom: 2px;
+            left: 655px;
+        }
+            #container input.submit:focus { border: none; }
+
+        #container input.send{ background: url('../images/send.png') no-repeat; }
+
+        #container input.error { border: 1px solid red; }
+        #container input.valid { border: 1px solid #1FFF00; }
+
+        #container input:focus, #container select:focus {
+            border: 1px solid #a90329;
+            color: #a90329;
+        }
+
+    #container select { padding: 5px 0 5px 25px; }
+        #container option { padding: 0 15px; }
+
+    #container label {
+        color: #666;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 14px;
+        float: right;
+        margin: 23px -25px;
+        width: 270px;
+    }
+
+#progress_bar {
+    background: url('../images/progress_bar.png') no-repeat;
+    width: 339px;
+    height: 24px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#progress {
+    background: url('../images/progress.png') repeat-x;
+    width: 0px;
+    height: 23px;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+#progress_text {
+    position: relative;
+    line-height: 21px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px #222;
+    width: 339px;
+    height: 24px;
+    top: -23px;
+    left: 0;
+}
+    </style>
+    <title></title>
+</head>
+<body>
+<div id="container">
+    <form action="#" method="post">
+
+        <!-- #first_step -->
+        <div id="first_step">
+            <h1>Регистрация<span></span></h1>
+
+            <div class="form">
+                <input type="text" name="username" id="username" value="Логин" />
+                <label for="username">Не менее 4 символов. Только заглавные, строчные буквы или цифры.</label>
+                
+                <input type="password" name="password" id="password" value="Пароль" />
+                <label for="password">Не менее 4 символов. Используйте сочетание верхнего и нижнего регистра для повышения надежности.</label>
+                
+                <input type="password" name="cpassword" id="cpassword" value="Пароль" />
+                <label for="cpassword">Если ваши пароли не совпадают, то вы не сможете продолжить регистрацию.</label>
+            </div>      <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+            <input class="submit" type="submit" name="submit_first" id="submit_first" value="" />
+        </div>      <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+
+
+        <!-- #second_step -->
+        <div id="second_step">
+            <h1>Зарегистрируйтесьspan></span></h1>
+
+            <div class="form">
+                <input type="text" name="firstname" id="firstname" value="Имя" />
+                <label for="firstname">Ваше Имя. </label>
+                <input type="text" name="lastname" id="lastname" value="Фамилия" />
+                <label for="lastname">Ваша Фамилия. </label>
+                <input type="text" name="email" id="email" value="Email" />
+                <label for="email">Ваш email.</label>                    
+            </div>      <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+            <input class="submit" type="submit" name="submit_second" id="submit_second" value="" />
+        </div>      <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+
+
+        <!-- #third_step -->
+        <div id="third_step">
+            <h1>Зарегистрируйтесь <span></span></h1>
+
+            <div class="form">
+                <select id="age" name="age">
+                    <option> 0 - 17</option>
+                    <option>18 - 25</option>
+                    <option>26 - 40</option>
+                    <option>40+</option>
+                </select>
+                <label for="age">Ваш возраст. </label> <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+
+                <select id="gender" name="gender">
+                    <option>Мужчина</option>
+                    <option>Женщина</option>
+                </select>
+                <label for="gender">Ваш пол. </label> <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+                
+                <select id="country" name="country">
+                    <option>Россия</option>
+                    <option>Украина</option>
+                    <option>Белоруссия</option>
+                    <option>Казахстан</option>
+                    <option>Другая</option>
+                </select>
+                <label for="country">Ваша страна. </label> <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+                
+            </div>      <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+            <input class="submit" type="submit" name="submit_third" id="submit_third" value="" />
+            
+        </div>      <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+        
+        
+        <!-- #fourth_step -->
+        <div id="fourth_step">
+            <h1>Зарегистрируйтесь на <span>pcvector.net</span></h1>
+
+            <div class="form">
+                <h2>Общая информация</h2>
+                
+                <table>
+                    <tr><td>Логин</td><td></td></tr>
+                    <tr><td>Пароль</td><td></td></tr>
+                    <tr><td>Email</td><td></td></tr>
+                    <tr><td>Имя</td><td></td></tr>
+                    <tr><td>Возраст</td><td></td></tr>
+                    <tr><td>Пол</td><td></td></tr>
+                    <tr><td>Страна</td><td></td></tr>
+                </table>
+            </div>      <!-- clearfix --><div class="clear"></div><!-- /clearfix -->
+            <input class="send submit" type="submit" name="submit_fourth" id="submit_fourth" value="" />            
+        </div>
+        
+    </form>
+</div>
+<div id="progress_bar">
+    <div id="progress"></div>
+    <div id="progress_text">0% Выполнено</div>
+</div>
+</body>
+</html>

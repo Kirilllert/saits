@@ -1,0 +1,148 @@
+body{
+	background-color: #4ECEB2;
+	margin: 0;
+}
+.hell-parent{
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+.hell-parent2{
+background-color: white;
+width: 500px;
+height: 650px;
+}
+.hell-parent3{
+	    width: 500px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hell-parent4{
+	width: 350px;
+	height: auto;
+}
+.hell-parent5{
+	
+}
+.photo{
+	float: right;
+	width: 50%;
+}
+.txt-name{
+	color: #F56223;
+	font-size: 35px;
+	font-family: 'Text Me One', sans-serif;
+	display: inline-block;
+    cursor: pointer;
+}
+.line{
+
+}
+.active{
+background-image: url(../img/like.png) !important;
+ background-repeat: no-repeat;
+    background-size: contain;
+width: 16px;
+    height: 16px;
+}
+#heart{
+    background-image: url(../img/heart.png) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+      width: 16px;
+    height: 16px;
+}
+.txt-like{
+	color: #FF001F;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 5px;
+	display: inline-block;
+
+}
+.far fa-heart{
+	color:#FF001F; 
+}
+.txt-star{
+	color: #E5A800;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 45px;
+	display: inline-block;
+}
+.Ingredients{
+	color: black;
+	font-family: 'Mukta', sans-serif;
+    animation-name: example;
+    animation-duration: 60s;
+}
+@keyframes example{
+      0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+.spisok{
+	color: #737373;
+	font-family: 'Dosis', sans-serif;
+	margin-top: 20px;
+	margin: 0 auto 30px;
+	text-align: left;
+	display: inline-block;
+    cursor: pointer;
+
+}
+.parent{
+	position: relative;
+}
+.button2{
+	position: absolute;
+	top: 32%;
+	left: 37%;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+   .hell-parent{
+        background-image: url("../img/cake.png");
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .hell-parent2{
+    	background-color:#4ECEB2;
+    	max-width: 100%;
+    }
+    .photo{
+    	display: none;
+    }
+
+    .hell-parent4{
+    	height: auto;
+    background-image: url(../img/cake.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    }
+    .hell-parent5{
+    	display: inline-block;
+    	background: rgba(255,255,255,0.5);
+    }
+    .button2{
+    	position: absolute;
+    	top: 32%;
+    	left: 29%;
+    }
+    .hell-parent3{
+    	max-width: 100%
+    }
+    .button{
+    	width: 150px;
+    	height: auto;
+    }
+    .button2{
+    	font-size: 14px;
+    }
+}

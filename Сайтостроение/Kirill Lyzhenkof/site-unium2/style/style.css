@@ -1,0 +1,354 @@
+.hell{
+	max-width: 3000px;
+ 	margin: 0 auto;
+ 	text-align: center;
+}
+.active{
+	background-image: url('../img/bitmap5.png') !important;
+	background-repeat: no-repeat;
+	width: 587px;
+	height: 750px;
+}
+#like{
+	background-image: url('../img/Bitmap9.png');
+	width: 587px;
+	height: 750px;
+}
+.block-cino{
+	justify-content: space-around;
+	display: flex;
+	margin-top: 50px;
+	}
+.block-kino{
+	display: flex;
+	direction: column;
+	justify-content: space-around;
+}
+.parent1{
+	position: relative;
+}
+.parent2{
+	position: relative;
+}
+.substrate{
+	position: relative;
+}
+.k1{
+	position: absolute;
+}
+.header__logo{
+	position: absolute;
+	left: 8%;
+	top: 5%;
+}
+.search{
+	position: absolute;
+	right: 20%;
+	top: 5%
+}
+.login{
+	position: absolute;
+	right: 16%;
+	top: 6%;
+}
+.button{
+	position: absolute;
+	right: 7%;
+	top: 4%;
+}
+.my-class:hover{
+	color: #C71585 !important;
+}
+.txt-kino{
+	position: absolute;
+	bottom: 25%;
+	left: 10%;
+	color: white;
+	font-size: 100px;
+	font-family: 'Nunito', sans-serif;
+}
+.janar{
+	position: absolute;
+	bottom: 24%;
+	left: 11%;
+}
+.Stroke{
+	position: absolute;
+	bottom: 24%;
+	left: 26%
+}
+.HH{
+	position: absolute;
+	bottom: 24.5%;
+	left: 28%
+}
+.button2{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+.button3{
+	position: absolute;
+	bottom: 10%;
+	left: 22%;
+}
+.rating{
+	position: absolute;
+	bottom: 6%;
+	right: 7%;
+}
+.button4{
+	position: absolute;
+	bottom: 12%;
+	left: 32%;
+}
+.bottom-menu{
+	position: relative;
+	right: 25%;
+}
+.txt-menu{
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	color: #80818A;
+
+}
+.txt-menu:hover{
+	color: #FB0066 !important;
+	text-decoration:underline #FB0066 !important;
+}
+.txt-menu1{
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 85px;
+	color: #80818A;
+
+}
+.txt-menu1:hover{
+	color: #FB0066 !important;
+	text-decoration:underline #FB0066 !important;
+}
+.txt-menu2{
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 85px;
+	color: #80818A;
+
+}
+.txt-menu2:hover{
+	color: #FB0066 !important;
+	text-decoration:underline #FB0066 !important;
+}
+.txt-menu4{
+	font-size: 30px;
+	display: inline-block;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 85px;
+	color: #80818A;
+
+}
+.txt-menu4:hover{
+	color: #FB0066 !important;
+	text-decoration:underline #FB0066 !important;
+	background-image: url();
+}
+.img-menu{
+	margin-left: 10px;
+
+}
+@media screen and (min-width: 650px) {
+    body {
+        background-color: none;
+    }
+    .parent1{
+    	width: 100%;
+    }
+    .
+}
+.kino1_txt1{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right:4%;
+}
+.kino1_txt2{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	left: 2.5%;
+}
+.kino1_txt3{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	left: 0.5%;
+}
+.kino1_txt4{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right:3%;
+}
+.kino1_txt5{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+}
+.genres{
+	display: flex;
+	direction: column;
+	justify-content: space-around;
+	font-size: 35px;
+	color: #BABBC3;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.genres1{
+	position: relative;
+	right: 3.5%;
+}
+.genres2{
+	position: relative;
+	right: 7%;
+}
+.genres3{
+	position: relative;
+	right: 3%;
+}
+.genres4{
+	position: relative;
+	right: 6%;
+}
+.kino1_txt1-1{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right:4%;
+}
+.kino1_txt2-2{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right: 7%;
+}
+.kino1_txt3-3{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right: 1.5%;
+}
+.kino1_txt4-4{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right:0.5%;
+}
+.genres1-1{
+	position: relative;
+	right: 2.5%;
+}
+.genres2-2{
+	position: relative;
+	right: 2.5%;
+}
+.genres3-3{
+	position: relative;
+	right: 1%;
+}
+.genres4-4{
+	position: relative;
+	right: 1%;
+}
+.kino1_txt1-1-1{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right:3%;
+}
+.kino1_txt2-2-2{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right: 2%;
+}
+.kino1_txt3-3-3{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right: 4%;
+}
+.kino1_txt4-4-4{
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+	position: relative;
+	right:2%;
+}
+.genres1-1-1{
+	position: relative;
+	right:2%;
+}
+.genres2-2-2{
+	position: relative;
+	right: 3%;
+}
+.genres3-3-3{
+	position: relative;
+	right: 2%;
+}
+.genres4-4-4{
+	position: relative;
+	right:4%;
+}
+.loading{
+	text-align: center;
+	margin-top: 150px;
+}
+.logo-bottom{
+	display: flex;
+	justify-content: flex-start;
+}
+.txt-bottom{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 35px;
+	color: #80818A;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+.txt-bottom1{
+	margin-left: 25px;
+}
+.txt-bottom1:hover{
+ color: pink !important;
+}
+.txt-bottom2{
+	margin-left: 80px;
+}
+.txt-bottom2:hover{
+ color: pink !important;
+}
+.txt-bottom3{
+	margin-left: 80px;
+}
+.txt-bottom3:hover{
+ color: pink !important;
+}
+.txt-bottom4{
+	margin-left: 80px;
+}
+.txt-bottom4:hover{
+ color: pink !important;
+}
+.txt-bottom5{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 35px;
+	color: #80818A;
+	font-family: 'Nanum Gothic', sans-serif;
+	margin-top: 150px;
+	margin-bottom: 200px;
+}
+.logo2{
+	display: flex;
+	justify-content: flex-end;
+	
+}

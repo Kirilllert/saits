@@ -1,0 +1,83 @@
+.parent-banner{
+	position: relative;
+}
+
+.txt-banner{
+font-family: 'Knewave', cursive;
+color: white;
+position: absolute;
+top:1%;
+left: 8%;
+font-size: 100px;
+}
+.button-banner1{
+	font-family: 'Carme', sans-serif;
+	color: white;
+	position: absolute;
+	top:6%;
+	right: 25%;
+	text-decoration: none;
+}
+.button-banner2{
+	font-family: 'Carme', sans-serif;
+	color: white;
+	position: absolute;
+	top: 6%;
+	right: 20%;
+	text-decoration: none;
+}
+.button-banner3{
+	font-family: 'Carme', sans-serif;
+	color: white;
+	position: absolute;
+	top:6%;
+	right: 15%;
+	text-decoration: none;
+}
+.button-banner4{
+	font-family: 'Carme', sans-serif;
+	color: white;
+	position: absolute;
+	top:6%;
+	right: 10%;
+	text-decoration: none;
+}
+.button-banner5{
+	font-family: 'Carme', sans-serif;
+	color: white;
+	position: absolute;
+	top:6%;
+	right: 5%;
+	text-decoration: none;
+}
+.button-banner1:hover{
+	background-color: black !important;
+}
+.button-banner2:hover{
+	background-color: black !important;
+}
+.button-banner3:hover{
+	background-color: black !important;
+}
+.button-banne4:hover{
+	background-color: black !important;
+}
+.button-banner5:hover{
+	background-color: black !important;
+}
+.banner-txt{
+	position: absolute;
+	font-family: 'Cantata One', serif;
+	font-size: 100px;
+	color: black;
+	top: 35%;
+	left: 10%;
+}
+.banner-txt1{
+	position: absolute;
+	font-family: 'Cantata One', serif;
+	font-size: 100px;
+	color: white;
+	top: 42%;
+	left: 10%;
+}

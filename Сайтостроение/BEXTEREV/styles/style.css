@@ -1,0 +1,195 @@
+
+	.one-block{
+		float: left;
+		width: 10%;
+	}
+	.two-block{
+		float: left;
+		width: 65%;
+	}
+	.three-block{
+		float: left;
+		width: 30%;
+	}
+		
+	.third-block{
+		float: right;
+		width: 10%;
+		}
+		.block4{
+			width: 85%;
+			display: inline-block;
+			
+		}
+		.block5{
+			width: 85%;
+			display: inline-block;
+			margin-left: 25px;
+		}
+		.block05{
+			width: 85%;
+			display: inline-block;
+			margin-left: 25px;
+		}
+		.photo{
+		width: 150px;
+		height: auto; 
+
+		}
+		.button{
+		font-family: 'Roboto Condensed', sans-serif;
+		display: inline-block;
+		margin-right: ;
+		margin-left: ;
+		margin-top: ;
+		margin-bottom: ;
+
+		}
+		.text-block1{
+		font-size: 20px;
+		color: black;
+		margin-top: 10px;
+		text-decoration: underline;
+
+		}
+		
+		.photo-block{
+			width: 15px;
+			height: auto;
+			display: inline;
+			
+		}
+		.search{
+			padding-right: 35px;
+			padding-left:35px;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			border: solid 2px grey;
+			border-radius: 1px;
+			display: inline-block;
+
+		}
+		.text-search{
+			color: grey;
+			text-align: right;
+		}
+		.text-self{
+			color: black;
+			margin-top: 35px;
+		}
+
+		
+		.text-block2{
+			color: black;
+			margin-left: 25px;
+			width: 90%;
+			display: inline;
+			float: right;
+			font-size: 25px;
+
+		}
+	.text-block2pr{
+		margin-right: 20px;
+		display: inline-block;
+
+	}
+	.text-block4{
+		font-size: 40px;
+		font-family: 'Yanone Kaffeesatz', sans-serif;
+		margin-left: 15px;
+	}
+	.news1{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline-block;
+	}
+	.news2{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline-block;
+		position: relative;
+		left: 1%;
+	}
+
+	.news3{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline-block;
+		position: relative;
+		left: 2%;
+	}
+	.news4{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline-block;
+		position: relative;
+		left: 3%;
+	}
+	.news01{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline-block;
+		position: relative;
+		margin-top: 20px;
+		right: 3%;
+
+	}
+	.news02{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline-block;
+		position: relative;
+		right: 1.75%;
+	}
+
+	.news03{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline;
+		position: relative;
+		left: 0.0000000000000001%;
+		right: 10%;
+	}
+	.news04{
+		padding-bottom: 75px;
+		padding-top: 75px;
+		padding-right: 125px;
+		padding-left: 125px;
+		background-color: #DCDCDC;
+		display: inline-block;
+		position: relative;
+		left:72%;
+		border-bottom: 100px;
+	}
+.txt-news{
+
+}
+.ElastiStack( element, {
+    // distDragBack: если пользователь не зашёл за пределы, возвращаем изображение на место
+    distDragBack : 200,
+    // distDragMax: если выходит за эти пределы, убираем изображение
+    distDragMax : 450,
+    // колбэк
+    onUpdateStack : function( current ) { return false; }
+} );

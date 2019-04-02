@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="all-conteiner">
+		 
+			<div class="top__undername">
+				Адский фильмец
+			</div>
+			<br>
+			<div class="top">
+			<img class="banner_top" src="img/banner.jpg">
+		</div>
+		<div class="middle-block">
+			<div class="middle-block__film">
+				<iframe src="img/film.mp4"></iframe>
+			</div>
+			<div class="middle-block_undername-with-about-film">
+				<div class="middle-block__undername">
+					<h2>Капитан Марвел</h2>
+				</div>
+				<div class="middle-block_about-film">
+					<p class="text">После столкновения с враждующими<br>
+					инопланетными расами пилот военно-воздушных сил<br>
+					Кэрол Дэнверс обретает суперсилу и становится<br>
+					неуязвимой. Героине предстоит совладать со своими<br>
+				  	новыми способностями, чтобы противостоять<br>
+				  	 могущественному врагу.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+			<div class="down-block__undername">
+				<h2>В главных ролях</h2>
+			</div>
+			<div class="down-block">
+			<br>
+			<div class="down-block__palyer">
+				<div class="down-block__palyer__1">
+					<img class="down-block__palyer__1__img" src="img/player1.jpg">
+					<br>
+					<div class="down-block__palyer__1__text">
+						Бри Ларсон
+					</div>
+					<br>
+				</div>
+				<div class="down-block__palyer__2">
+					<img class="down-block__palyer__2__img" src="img/player2.jpg">
+					<br>
+					<div class="down-block__palyer__2__text">
+						Сэмюэл Л. Джексон
+					</div>
+				</div>
+				<div class="down-block__palyer__3">
+					<img class="down-block__palyer__3__img" src="img/player3.jpg">
+					<br>
+					<div class="down-block__palyer__3__text">
+						Бен Мендельсон
+					</div>
+				</div>
+				<div class="down-block__palyer__4">
+					<img class="down-block__palyer__4__img" src="img/player4.jpg">
+					<br>
+					<div class="down-block__palyer__4__text">
+						Джуд Лоу
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="feedback">
+			<div id="button" class="feedback_write">Написать отзыв</div>
+			<div class="feedback_user"></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let btn = document.getElementById('button');
+		let feedbackUser = document.getElementById('feedback_user');
+		
+		btn.onclick = function(){
+			let feedback = prompt('Оставить отзыв');
+			let feedbackU = document.createElement('text');
+			let write = document.createTextNode(feedbackU);
+			feedbackU.textContent = feedback.value;
+			feedbackUser.appendChild(write);
+		}
+	</script>
+</body>
+</html>
